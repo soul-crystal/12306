@@ -1,0 +1,271 @@
+@charset "utf-8";
+* {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+a {
+	text-decoration: none;
+}
+
+.top_header {
+	background: #fff;
+	font-size: 12px;
+	font-family: Tahoma, "宋体";
+	color: #333;
+	margin: 0;
+	padding: 0;
+	position: relative
+}
+
+.header {
+	background: url(../images/bg.png) repeat-x;
+	height: 66px;
+	background-position: 0 0
+}
+
+.header-bd {
+	width: 1000px;
+	height: 66px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.logo {
+	float: left;
+	width: 300px;
+	height: 50px;
+	background: url(../images/logo.png) 12px 8px no-repeat;
+	padding: 8px 0 0 12px;
+	text-indent: -9999px
+}
+
+.login-info {
+	height: 30px;
+	line-height: 30px;
+	float: right;
+	padding-right: 200px;
+	margin-bottom: 2px
+}
+
+.login-info a {
+	color: #666
+}
+
+.login-info .colorA {
+	color: #fb7403
+}
+
+.login-info .phone-link {
+	background: url(../images/icon_phone.png) left center no-repeat;
+	padding-left: 15px;
+	float: right;
+	margin-left: 25px
+}
+
+.login-info .phone-link a:hover {
+	color: #fb7403
+}
+
+.login-info .login-txt {
+	float: right
+}
+
+.login-info .login-txt a {
+	margin: 0 5px
+}
+
+.login-info .login-txt a:hover {
+	color: #fb7403
+}
+
+.menu {
+	float: right;
+	width: 80px;
+	height: 30px;
+	margin-left: 35px;
+	position: relative;
+	z-index: 2999;
+	text-align: left
+}
+
+.menu .menu-bd {
+	display: block;
+	width: 75px;
+	height: 30px;
+	line-height: 30px;
+	background: url(../images/4.png) right center no-repeat;
+}
+
+.menu .menu-bd:hover {
+	color: #fb7403
+}
+
+.menu .menu-bd b {
+	display: block;
+	width: 10px;
+	height: 5px;
+	background-position: 0 -35px;
+	overflow: hidden;
+	position: absolute;
+	top: 14px;
+	right: 2px
+}
+
+.menu .menu-list {
+	width: 130px;
+	padding: 5px 10px;
+	border: 1px solid #298cce;
+	background: #eef1f8;
+	position: absolute;
+	top: 30px;
+	left: -2px;
+	z-index: 5000;
+	display: none
+}
+
+.menu .menu-list b {
+	display: block;
+	width: 13px;
+	height: 7px;
+	overflow: hidden;
+	background: url(../images/icon_arrow2.png) -1px 0 no-repeat;
+	position: absolute;
+	top: -7px;
+	left: 50%;
+	margin-left: -7px
+}
+
+.menu .menu-list li {
+	width: 130px;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	padding-left: 5px;
+	text-align: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu .menu-list .line {
+	border-bottom: 1px dashed #999;
+	height: 1px;
+	line-height: 1px;
+	margin: 5px 0;
+	overflow: hidden
+}
+
+.menu .menu-list li a {
+	border-left: 3px solid #eef1f8;
+	padding-left: 5px;
+	font-size: 12px;
+	font-family: Tahoma, "宋体";
+}
+
+.menu .menu-list li a:hover {
+	color: #00a3d9;
+	border-left: 3px solid #00a3d9
+}
+
+.nav {
+	width: 600px;
+	height: 34px;
+	padding: 0 0 0 60px;
+	background: url(../images/bg_nav.png) right top no-repeat;
+	float: right;
+	position: relative
+}
+
+.nav li {
+	float: left;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	margin-right: 18px;
+	margin-top: 4px
+}
+
+.nav li a {
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	color: #fff;
+	font-size: 14px;
+	text-align: center
+}
+
+.nav li .current {
+	background: url(../images/bg_nav01.png) no-repeat;
+	color: #478dcd;
+	font-weight: 700
+}
+
+.nav li .current:hover {
+	color: #478dcd
+}
+
+.nav .nav-guide {
+	width: 71px;
+	height: 30px
+}
+
+.nav .nav-guide .current {
+	background: url(../images/bg_nav02.png) no-repeat;
+	height: 30px;
+	line-height: 28px;
+	font-weight: 700;
+	color: #478dcd
+}
+
+.nav .nav-list {
+	width: 980px;
+	height: 32px;
+	padding: 0 10px;
+	background: url(../images/bg_navlist.png) repeat-x;
+	border-bottom: 1px solid #999;
+	position: absolute;
+	top: 34px;
+	right: 0;
+	z-index: 2899;
+	display: none;
+	box-shadow: 2px 2px 5px #666
+}
+
+.nav .nav-list li {
+	height: 16px;
+	line-height: 16px;
+	padding: 8px 0;
+	overflow: hidden;
+	width: auto;
+	text-align: left;
+	float: right;
+	margin-left: 30px;
+	margin-top: 0;
+	background: 0
+}
+
+.nav .nav-list .on {
+	color: #478dcd;
+	border-left: 2px solid #478dcd;
+	padding-left: 3px;
+	font-weight: 400
+}
+
+.nav .nav-list li a {
+	display: inline;
+	padding-left: 5px;
+	color: #666;
+	height: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	background: 0
+}
+
+.nav .nav-list li a:hover {
+	color: #478dcd;
+	border-left: 2px solid #478dcd;
+	padding-left: 3px;
+	font-weight: 400
+}

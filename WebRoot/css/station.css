@@ -1,0 +1,153 @@
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.middle
+{
+	width:998px;
+	min-height: 200px;
+	position: relative;
+	margin: 0 auto;
+}
+.middle li
+{
+	height: 30px;
+    line-height: 30px;
+    padding: 5px 0;
+    float: left;
+    width: 245px;
+    position: relative;
+}
+.lay-sear-yp {
+	height: 40px;
+	margin-top: 10px;
+}
+.header-bd
+{
+	width: 1000px;
+    height: 66px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3000;
+}
+.lay-sear {
+	background: none repeat scroll 0 0 #EEF1F8;
+	border: 1px solid #298CCE;
+	border-radius: 3px;
+	font-size: 14px;
+	height: 40px;
+	margin: 10px 0 10px;
+	padding: 7px 0;
+	position: relative;
+}
+.center
+{
+	width:998px;
+	min-height: 100px;
+}
+
+.clearfix {
+	display: block;
+}
+
+.inp-txt {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CFCDC7;
+	color: #999999;
+	height: 35px;
+	line-height: 18px;
+	padding: 5px 0 5px 5px;
+	width: 193px;
+}
+
+.btn122s {
+	width: 122px;
+	background-position: 0 0;
+	color: #FFFFFF;
+	height: 30px;
+	line-height: 30px;
+	background: url("../images/bg_btn.png") repeat-x scroll 0 0
+		rgba(0, 0, 0, 0);
+	border-radius: 4px;
+	color: #333333;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+.t-list {
+	border: 1px solid #298cce;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+table {
+	table-layout: fixed;
+	word-wrap: break-word;
+	margin-top: 0;
+	background: url(../images/bg_tlisthd.png) top repeat-x;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+thead {
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+.t-list th {
+	height: 52px;
+	background-color:url(../images/line_tlisth.png) right center no-repeat;
+	color: #fff;
+	overflow: hidden;
+}
+
+.t-list td {
+	border-right: 1px solid #b0cedd;
+	border-top: 1px solid #b0cedd;
+	color: #999;
+	height: 36px;
+	padding: 2px 0;
+	text-align: center;
+}
+
+div.dhx_modal_cover {
+	border: currentColor;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	_height: 0;
+	_overflow: hidden;
+	position: fixed;
+	filter: alpha(opacity = 50);
+	opacity: .5;
+	z-index: 19999;
+	cursor: default;
+	zoom: 1;
+	background-color: rgba(0, 0, 0, 0.09);
+}
+
+.sear-sel-bd {
+	border: 1px solid #3391d0;
+	height: 44px;
+	overflow: hidden;
+	position: relative;
+	padding: 3px 0;
+}
+.header-logo{ 
+display:inline;
+height: 66px;
+} 
+.div-font{
+font-size : 0.8em;
+color : #F79209;
+margin-left: 10px;
+}

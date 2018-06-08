@@ -1,0 +1,352 @@
+	@charset "utf-8";
+	/* CSS Document */
+   	body,div,a,ul,li
+   	{
+   		margin: 0px;
+   		padding: 0px;
+   	}
+   	#layout
+	{
+		width:100%;
+		height:1024px;
+	}
+	#sum
+	{
+		width:988px;
+	}
+   	body
+   	{
+   		font-size:12px;
+   		color:black;
+   	}
+   	a
+   	{
+   		text-decoration: none;
+   		color:black;
+   	}
+   	li
+   	{
+   		list-style: none;
+   	}
+   	#center
+   	{
+   		width:100%;
+   	}
+   	#c-one
+   	{
+   		font-size:14px;
+   		float:left;
+   		width:100%;
+   		height:20px;
+   		text-align: left;
+   		line-height: 30px;
+   	}
+   	#c-two
+   	{
+   		width:100%;
+   		height:520px;
+   		padding-top:30px;
+   	}
+#c-two-left
+{
+	width:180px;
+	font-size:16px;
+	background-color: #DBE9EC;
+	border:solid #06C;
+	border-top-width:medium;
+	border-bottom-width:medium;
+	border-left-width:thin;
+	border-right-width:thin;
+	margin:10px;
+	float:left;
+}
+#ctl
+{
+	height:28px;
+	background-color:#06C;
+	line-height:35px;
+	height:40px;
+	color:white;
+}
+#ctl-1
+{
+	padding-top:32px;
+	height:50px;
+}
+#ctl-2
+{
+	padding-top:32px;
+	height:50px;
+}
+#ctl-3
+{
+	padding-top:32px;
+	height:50px;
+}
+#ctl-4
+{
+	padding-top:32px;
+	height:55px;
+}
+	#c-two-right
+	{
+		float:left;
+		width:750px;
+		height:427px;
+		margin-left:20px;
+		font-size:16px;
+		border:solid #06C;
+		border-top-width:medium;
+		border-bottom-width:medium;
+		border-left-width:thin;
+		border-right-width:thin;
+	}
+	#ctr
+	{
+		height:28px;
+		padding-left:18px;
+		background-color:#06C;
+		line-height:35px;
+		height:40px;
+		color:white;
+	}
+	#l-1
+	{
+		float:left;
+		padding:30px;
+		
+	}
+	#l-2
+	{
+		float:left;
+		padding-left:5px;
+		padding-top:50px;
+		font-weight: bold;
+		font-size:18px;
+	}
+	#l-3
+	{
+		float:left;
+		padding-left:10px;
+		padding-top:50px;
+	}
+	#l-4
+	{
+		float:left;
+		padding-left:15px;
+		padding-top:54px;
+		font-size:14px;
+	}
+	#l-5
+	{
+		float:left;
+		padding-left:70px;
+		padding-top:50px;
+		
+	}
+	#ctr1
+	{
+		width:100%;
+		height:700px;
+		margin-top:10px;
+	}
+	#ctr1-1
+	{
+		width:100%;
+		float:left;
+		padding-left:15px;
+		font-size:14px;
+		font-weight: bold;
+	}
+	#ctr1-2
+	{
+		width:100%;
+		float:left;
+		font-size:12px;
+	}
+	#ctr1-3
+	{
+		width:100%;
+		float:left;
+		font-size:12px;
+	}
+	#ctr1-4
+	{
+		width:100%;
+		float:left;
+		font-size:12px;
+	}
+	#ctr1-5
+	{
+		width:100%;
+		float:left;
+		font-size:12px;
+	}
+	#ctr1-6
+	{
+		width:100%;
+		float:left;
+		font-size:12px;
+		margin-top:40px;
+		padding-left:10px;
+	}
+	#ctr1-7
+	{
+		width:100%;
+		float:left;
+		font-size:12px;
+		margin-top:30px;
+		padding-left:240px;
+	}
+	#ctr1-2-1
+	{
+		color:red;
+		float:left;
+		padding-left:187px;
+		padding-top:13px;
+	}
+	#ctr1-2-2
+	{
+		float:left;
+		padding-left:3px;
+		padding-top:13px;
+	}
+	#ctr1-2-3
+	{
+		float:left;
+		padding-left:10px;
+		padding-top:8px;
+	}
+	#ctr1-2-4
+	{
+		float:left;
+		color:orange;
+		padding-left:10px;
+		padding-top:13px;
+	}
+	#ctr1-2-01
+	{
+		float:left;
+		width:100%;
+		color:red;
+		padding-left:258px;
+	}
+	#ctr1-3-1
+	{
+		color:red;
+		float:left;
+		padding-left:187px;
+		padding-top:13px;
+	}
+	#ctr1-3-2
+	{
+		float:left;
+		padding-left:3px;
+		padding-top:11px;
+	}
+	#ctr1-3-3
+	{
+		float:left;
+		padding-left:10px;
+		padding-top:8px;
+	}
+	#ctr1-3-4
+	{
+		float:left;
+		color:orange;
+		padding-left:10px;
+		padding-top:13px;
+	}
+	#ctr1-3-01
+	{
+		float:left;
+		width:100%;
+		color:red;
+		padding-left:258px;
+	}
+	#ctr1-4-1
+	{
+		float:left;
+		padding-left:192px;
+		padding-top:10px;
+	}
+	#ctr1-4-2
+	{
+		float:left;
+		padding-left:20px;
+		padding-top:10px;
+	}
+	#ctr1-4-3
+	{
+		float:left;
+		padding-left:5px;
+		padding-top:10px;
+	}
+	#ctr1-4-4
+	{
+		float:left;
+		padding-left:5px;
+		padding-top:10px;
+	}
+	#ctr1-5-1
+	{
+		color:red;
+		float:left;
+		padding-left:175px;
+		padding-top:15px;
+	}
+	#ctr1-5-2
+	{
+		float:left;
+		padding-left:3px;
+		padding-top:13px;
+	}
+	#ctr1-5-3
+	{
+		float:left;
+		padding-left:10px;
+		padding-top:10px;
+	}
+	#ctr1-5-4
+	{
+		float:left;
+		color:orange;
+		padding-left:10px;
+		padding-top:15px;
+	}
+	#ctr1-5-01
+	{
+		float:left;
+		width:100%;
+		color:red;
+		padding-left:258px;
+	}
+	#changepwd
+   	{
+   		margin-top:20px;
+   		width:95%;
+   		height:160px;
+   		border-left-style:solid;
+		border-right-style:solid;
+		border-bottom-style:solid;
+		border-top-style:solid;
+   		border-left-width:thin;
+		border-right-width:thin;
+		border-bottom-width:thin;
+		border-top-width:thin;
+		border-left-color:#06C;
+		border-right-color:#06C;
+		border-bottom-color:#06C;
+		border-top-color:#06C;
+   	}
+   	#footer {
+   	margin-top:10px;
+   	float:left;
+	height: 110px;
+	width: 100%;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #06C;
+	font-size: 13px;
+	color: #666;
+}

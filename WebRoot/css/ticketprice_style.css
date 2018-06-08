@@ -1,0 +1,142 @@
+@charset "utf-8";
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+a
+{
+	text-decoration:none;
+}
+#layout 
+{
+	width: 1000px;
+	margin: auto;
+}
+
+#header 
+{
+	width: 100%
+}
+#main
+{
+	width: 100%
+}
+#m_up
+{
+	width: 100%;
+	height: 60px;
+	border: thin solid rgba(41,140,206,1.00);
+	background-color: rgba(238,241,248,1.00);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#m_up ul
+{
+	position: relative;
+	top: 15px;
+}
+#m_up ul li
+{
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	width: 300px;
+	height: 40px;
+}
+.inputbox
+{
+	width: 150px;
+	height: 30px;
+	font-size: 15px;
+}
+.query
+{
+	width: 90px;
+	height: 35px;
+	display: inline-block;
+	color: white;
+	background-color: rgba(255,128,0,1.00);
+	font-size: 15px;
+	line-height: 32px;
+}
+.fuzzyquery
+{
+	width: 180px;
+	margin-left:100px;
+	position: absolute;
+	border: thin solid rgba(207,205,199,1.00);
+	background-color:rgba(255,255,255,1.00);
+	z-index:1;
+}
+.divquery1
+{
+	text-align: left;
+	border-bottom: thin dashed rgba(207,205,199,1.00);
+	margin:2px;
+}
+.divquery2
+{
+	width: 100%;
+	height: 130px;
+	overflow: auto;
+}
+.spanquery
+{
+	color: red;			
+}
+.aquery
+{
+	display: block;
+	text-align: left;
+	color: rgba(0,85,170,1.00);
+	margin:2px;
+	border-top: thin solid rgba(255,255,255,1.00);
+	border-bottom: thin solid rgba(255,255,255,1.00);
+}
+#m_bottom
+{
+	width: 100%;
+	font-size: 15px;
+}
+#table
+{
+	border-top: thin solid rgba(41,140,206,1.00);
+	border-left: thin solid rgba(41,140,206,1.00);
+	margin-top: 10px;
+	border-spacing:0;
+}
+.table1
+{
+	text-align: center;
+	width: 300px;
+	color: white;
+}
+.table2
+{
+	text-align:center;
+	width:70px;
+	color: white;
+}
+.table3
+{
+	text-align: center;
+	width: 300px;
+	border-right: thin solid rgba(41,140,206,1.00);
+	border-bottom: thin solid rgba(41,140,206,1.00);
+}
+.table4
+{
+	text-align:center;
+	width:70px;
+	color: rgba(251,116,3,1.00);
+	border-right: thin solid rgba(41,140,206,1.00);
+	border-bottom: thin solid rgba(41,140,206,1.00);
+}
+.table5
+{
+	text-align:center;
+	width:1000px;
+	border-right: thin solid rgba(41,140,206,1.00);
+	border-bottom: thin solid rgba(41,140,206,1.00);
+}

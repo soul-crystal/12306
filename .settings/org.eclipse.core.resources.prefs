@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/cn/action/AddContactAction.java=UTF-8
+encoding//src/cn/action/AddUserAndContactAction.java=UTF-8
+encoding//src/cn/action/CheckCnumAction.java=UTF-8
+encoding//src/cn/action/CheckMailAction.java=UTF-8
+encoding//src/cn/action/SelectorderAction.java=UTF-8
+encoding//src/cn/dao/impl/ContactDaoImpl.java=UTF-8

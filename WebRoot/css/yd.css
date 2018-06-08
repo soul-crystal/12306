@@ -1,0 +1,238 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, images, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{
+	    border: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+table
+{
+	display: table;
+	border-collapse: collapse;
+	border-spacing: 2px;
+	border-color: grey;
+	font-size: 12px;
+}
+tbody
+{
+	    display: table-row-group;
+    	vertical-align: middle;
+    	border-color: inherit;
+}	
+body
+{
+	    background: #fff;
+    font-size: 12px;
+    font-family: Tahoma,"宋体";
+    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+input select textarea
+{
+	font-size: 12px;
+    font-family: Tahoma;
+    line-height: 18px;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    outline: 0;
+}
+a
+{
+	outline: none;
+	text-decoration: none;
+	color: #666;
+}
+#head{
+	width: 1000px;
+	height: 66px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 3000;
+	background-image: url(../images/bg.png);
+}
+.head
+{
+	float: left;
+}
+#head-logo
+{
+	width: 322px;
+}
+#daohang
+{
+	text-align: center;
+	width: 678px;
+	height: 30px;
+	line-height: 30px;;
+	
+}
+#head-left
+{
+	width: 678px;
+	height: 66px;
+}
+li{
+	float: left;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    margin-right: 18px;
+    margin-top: 4px;
+    list-style: none;
+	display: list-item;
+}
+#daohangb
+{
+	height: 34px;
+	background-image: url(../images/bg_nav.png);
+}
+.daohang li a
+{
+	display: block;
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.colorA
+{
+	color: #fb7403;
+}
+#middle
+{
+	width: 998px;
+	
+    margin: 0 auto;
+
+}
+.footer
+{
+	    height: 60px;
+    line-height: 20px;
+    padding: 20px 0;
+    border-top: 2px solid #468dcd;
+    background: #f6f6f6;
+    margin-top: 10px;
+    text-align: center;
+    color: #999;
+}
+.lay-hd
+{
+	height: 32px;
+    line-height: 30px;
+    color: #e5f8ff;
+    padding-left: 20px;
+    font-size: 14px;
+    position: relative;
+    background-color: #468DCD;
+}
+.layout
+{
+	    margin-top: 10px;
+	        border: 1px solid #1678be;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    background-position: 0 -400px;
+}
+.lay-bd
+{
+	    border-bottom: 1px dashed #999;
+	        line-height: 32px;
+	        font-size: 16px;
+}
+.lay-bd li
+{
+	    float: left;
+    width: 110px;
+    height: 20px;
+    line-height: 20px;
+    padding: 2px 0;
+    overflow: hidden;
+}
+.per
+{
+	    border-bottom: 1px dashed #999;
+    padding-bottom: 5px;
+    height: 24px;
+}
+.per-ticked th
+{
+	    height: 28px;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 5px;
+    font-weight: 400;
+    border-bottom: 1px solid #999;
+    background-position: 0 -200px;
+    
+}
+.per-ticked td
+{
+	height: 30px;
+    line-height: 30px;
+    padding: 4px 0 4px 5px;
+}
+select
+{
+	    height: 30px;
+    line-height: 30px;
+    padding: 5px 0;
+}
+.inptxt
+{
+	height: 30px;
+    line-height: 18px;
+    border: 1px solid #cfcdc7;
+    background: #fff;
+    color: #999;
+    padding: 5px 0 5px 5px;
+}
+.btn122s
+{
+	display: inline-block;
+    text-align: center;
+    background: url(../images/bg_btn.png) repeat-x;
+    color: #333;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+        height: 30px;
+    line-height: 30px;
+    background-position: 0 0;
+    color: #fff;
+    width: 92px;
+    margin: 0 10px;
+}
+.lay-btn
+{
+	height: 30px;
+    padding: 10px 0;
+    text-align: center;
+}
+.tips-txt
+{
+	    background: #fffbe5;
+    border: 1px solid #fbd800;
+    padding: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#delete
+{
+	display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: 0 -350px;
+    vertical-align: middle;
+    background: url(../images/delete.png);
+}
+#price
+{
+	width:30px;
+}
