@@ -31,6 +31,7 @@ public class ChangeloginpasswordAction implements Action
 		}
 		else
 		{
+			request.getSession().removeAttribute("user");
 			return "login.jsp";
 		}
 	}
