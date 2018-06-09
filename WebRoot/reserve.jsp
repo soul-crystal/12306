@@ -1,3 +1,4 @@
+<%@page import="cn.bean.User"%>
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
@@ -90,8 +91,25 @@
 
 			function tijiao() {
 				
-					$("#form").submit();
-				
+					if($("#name0").val()!="")
+					{
+					<%User u=(User)request.getSession().getAttribute("user");%>
+					var password=<%=u.getPassword()%>
+					for(var i=0;i<3;i++)
+					{
+					var passwor=promot("请输入密码(类比简陋交易后台)","");
+					if(passwor==password)
+					{$("#form").submit();
+					break;
+					}else
+					{
+					alert("输入错误")
+					}
+					}
+				}
+				else {
+				alert("请确认购买人噢");
+				}
 
 			}
 		</script>

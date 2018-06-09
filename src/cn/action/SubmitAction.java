@@ -62,7 +62,7 @@ public class SubmitAction implements Action
 				date = DateFormat.getDateInstance().parse(date1);
 			} catch (Exception e)
 			{
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}//拿到乘坐时间
 			
@@ -76,7 +76,7 @@ public class SubmitAction implements Action
 					{
 					tn=tr;
 					break;}
-			}//拿到起始终止时间
+			}
 			 Timestamp ts = new Timestamp(System.currentTimeMillis()); 
 			 Timestamp st = new Timestamp(tn.getStarttime().getTime());
 			 Timestamp et = new Timestamp(tn.getEndtime().getTime());
@@ -96,7 +96,7 @@ public class SubmitAction implements Action
 				
 					
 		}
-		return "OrderInformation.jsp";//回订单页面
+		return "OrderInformation.jsp";
 	}
 
 }
